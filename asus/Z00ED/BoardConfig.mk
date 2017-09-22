@@ -25,7 +25,8 @@ TARGET_OTA_ASSERT_DEVICE := Z00ED,Z00E,Z00E_2,ASUS_Z00E,ASUS_Z00E_2
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
 # Kernel
-TARGET_KERNEL_CONFIG := ze500kl-custom_defconfig
+#TARGET_KERNEL_CONFIG := ze500kl-custom_defconfig
+TARGET_PREBUILT_KERNEL := device/asus/Z00ED/prebuild/zImage
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
