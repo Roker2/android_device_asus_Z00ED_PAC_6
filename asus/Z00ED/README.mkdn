@@ -6,13 +6,12 @@ Basic   | Spec Sheet
 CPU     | Quad-core 1.2 GHz Cortex-A53
         | Quad-core 1.7 GHz Cortex-A53 & quad-core 1.0 GHz Cortex-A53
 Chipset | Qualcomm MSM8916 Snapdragon 410
-        | Qualcomm MSM8939 Snapdragon 615
 GPU     | Adreno 405
-Memory  | 2/3GB RAM
-Shipped Android Version | 5.0.2
-Storage | 16/32 GB
+Memory  | 2GB RAM
+Shipped Android Version | 6.0.1
+Storage | 8/16/32 GB
 MicroSD | Up to 128 GB
-Battery | Li-Po 3000mAh battery
+Battery | Li-Po 2400mAh battery
 Display | 720 x 1280 pixels, 5.5 inches (~267 ppi pixel density)
         | 720 x 1280 pixels, 6.0 inches (~245 ppi pixel density)
 Camera  | 13 MP, laser autofocus, dual-LED (dual tone) flash
