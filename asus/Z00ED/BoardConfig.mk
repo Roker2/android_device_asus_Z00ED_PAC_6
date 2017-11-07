@@ -25,7 +25,7 @@ TARGET_OTA_ASSERT_DEVICE := Z00ED,Z00E,Z00E_2,ASUS_Z00E,ASUS_Z00E_2
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
 # Kernel
-#TARGET_KERNEL_CONFIG := ze500kl-custom_defconfig
+#TARGET_KERNEL_CONFIG := ze500kl_defconfig
 TARGET_PREBUILT_KERNEL := device/asus/Z00ED/prebuild/zImage
 
 # Properties
@@ -36,3 +36,14 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8916
 
 # inherit from the proprietary version
 -include vendor/asus/Z00E/BoardConfigVendor.mk
+
+# TWRP
+BOARD_SUPPRESS_SECURE_ERASE := true
+RECOVERY_SDCARD_ON_DATA := true
+TARGET_RECOVERY_QCOM_RTC_FIX := true
+TW_DEFAULT_EXTERNAL_STORAGE := true
+TW_INCLUDE_CRYPTO := true
+TW_THEME := portrait_hdpi
+
+#Scripts of kernel
+TARGET_SPECIFIC_HEADER_PATH := device/asus/Z00ED/original-headers
